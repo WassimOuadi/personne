@@ -1,12 +1,12 @@
+import outils.Personne;
+
 public class Main {
     public static void main(String[] args) {
         /** Lorsqu'on déclare une variable de type objet, on dit
          * que l'on fait une INSTANCIATION.
          * Un objet est une INSTANCE d'une classe. */
         Personne p = new Personne("Onyme", "Anne", 50);
-        // p.prenom = "Anne";
-        // p.nom = "Onyme";
-        // p.age = 50;
+       
         System.out.println("Nom : " + p.nom);
         System.out.println("Prénom : " + p.prenom);
         System.out.println("Age : " + p.getAge());
