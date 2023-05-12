@@ -1,8 +1,9 @@
 import outils.Personne;
+import outils.modules.Fonctions; 
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Bonjout");
+
         /** Lorsqu'on déclare une variable de type objet, on dit
          * que l'on fait une INSTANCIATION.
          * Un objet est une INSTANCE d'une classe. */
