@@ -1,7 +1,11 @@
 import outils.Personne;
+import outils.modules.Fonctions; 
 
 public class Main {
     public static void main(String[] args) {
+        Fonctions.ecrire("Ce texte est affiché avec la fonction écrire");
+        
+        
         /** Lorsqu'on déclare une variable de type objet, on dit
          * que l'on fait une INSTANCIATION.
          * Un objet est une INSTANCE d'une classe. */
